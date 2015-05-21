@@ -1,0 +1,11 @@
+{
+  "name": "Next",
+  "description": "A simple app to manage your queue.",
+  "devDependencies": {
+        "phantomjs" : "*",
+        "karma" : "*",
+        "karma-junit-reporter" : "*",
+        "karma-jasmine" : "*",
+        "karma-ng-scenario" : "*"
+    }
+}
