@@ -12,7 +12,7 @@ angular.module('myApp', [
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {
-    templateUrl: '{{ site.baseurl }}/partials/landing_page.html',
+    templateUrl: '/partials/landing_page.html',
     controller: 'LandingPageController'
   });
   $routeProvider.when('/waitlist', {
