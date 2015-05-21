@@ -12,19 +12,19 @@ angular.module('myApp', [
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {
-    templateUrl: '/partials/landing_page.html',
+    templateUrl: 'Next/partials/landing_page.html',
     controller: 'LandingPageController'
   });
   $routeProvider.when('/waitlist', {
-    templateUrl: '/partials/waitlist.html',
+    templateUrl: 'Next/partials/waitlist.html',
     controller: 'WaitlistController'
   });
   $routeProvider.when('/register', {
-    templateUrl: '/partials/register.html',
+    templateUrl: 'Next/partials/register.html',
     controller: 'AuthController'
   });
   $routeProvider.when('/login', {
-    templateUrl: '/partials/login.html',
+    templateUrl: 'Next/partials/login.html',
     controller: 'AuthController'
   });
   $routeProvider.otherwise({redirectTo: '/'});
