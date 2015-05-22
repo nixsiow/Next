@@ -12,15 +12,15 @@ angular.module('myApp', [
 ]).
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.when('/', {
-    templateUrl: '/partials/landing_page.html',
+    templateUrl: 'partials/landing_page.html',
     controller: 'LandingPageController'
   });
   $routeProvider.when('/waitlist', {
-    templateUrl: '{{ site.baseurl }}/partials/waitlist.html',
+    templateUrl: 'partials/waitlist.html',
     controller: 'WaitlistController'
   });
   $routeProvider.when('/register', {
-    templateUrl: '{{ site.baseurl }}/partials/register.html',
+    templateUrl: 'partials/register.html',
     controller: 'AuthController'
   });
   $routeProvider.when('/login', {
